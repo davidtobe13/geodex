@@ -3,9 +3,9 @@ import MapIcon from '../../assets/map-icon.png';
 
 const Hero = () => {
   return (
-    <div className="bg-gray-100 h-[67vh] flex">
+    <div className="bg-gray-100 md:h-[67vh] h-auto flex">
       <div className="container flex justify-between mx-auto ">
-        <div className="flex flex-col md:flex-row items-center w-[50%] px-4 md:px-6 py-16">
+        <div className="flex flex-col md:flex-row items-center md:w-[50%] w-[100%] px-4 md:px-6 py-16">
           <div className="w-full mb-10 md:mb-0">
             <div className="text-[20px] text-gray-600 font-medium mb-2">Track. Analyze.Optimize.</div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
@@ -19,7 +19,7 @@ const Hero = () => {
             </a>
           </div >
         </div>
-        <div className=' '>
+        <div className='md:flex hidden'>
                 <img src={MapIcon} alt="Location image" className="w-150 h-[430px] object-contain" />
                 </div>
       </div>
