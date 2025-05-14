@@ -1,5 +1,6 @@
 import React from 'react';
 import MapIcon from '../../assets/map-icon.png';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -14,9 +15,9 @@ const Hero = () => {
             <p className="text-gray-600 mb-8">
               Real time tracking, and performance insight for your outdoor ads.
             </p>
-            <a href="#" className="bg-orange-500 text-white px-6 py-3 rounded-md text-sm font-medium hover:bg-orange-600 inline-block">
+             <Link to="/signup"  className="bg-orange-500 text-white px-6 py-3 rounded-md text-sm font-medium hover:bg-orange-600 inline-block">
               Start Trial
-            </a>
+            </Link>
           </div >
         </div>
         <div className='md:flex hidden'>

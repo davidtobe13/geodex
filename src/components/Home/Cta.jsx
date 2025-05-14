@@ -1,5 +1,6 @@
 // components/CTA.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CTA = () => {
   return (
@@ -15,9 +16,9 @@ const CTA = () => {
             </p>
           </div>
           <div className="w-full md:w-1/3 text-center md:text-right">
-            <a href="#" className="bg-white text-orange-500 px-6 py-3 rounded-md font-medium hover:bg-gray-100 inline-block">
+             <Link to="/signup"  className="bg-white text-orange-500 px-6 py-3 rounded-md font-medium hover:bg-gray-100 inline-block">
               Start Free Trial
-            </a>
+            </Link>
           </div>
         </div>
       </div>

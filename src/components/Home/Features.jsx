@@ -3,6 +3,7 @@ import React from 'react';
 import PlanningIcon from '../../assets/planning-icon.png'; // Add to assets
 import MonitoringIcon from '../../assets/monitoring-icon.png'; // Add to assets
 import AnalyticsIcon from '../../assets/analytics-icon.png'; // Add to assets
+import { Link } from 'react-router-dom';
 
 const Features = () => {
   return (
@@ -22,9 +23,9 @@ const Features = () => {
               Our smart planning helps you target the right audience at the right time by creating innovative media plans that move people.
             </p>
             <div className="text-center">
-              <a href="#" className="text-sm border border-orange-500 text-orange-500 px-4 py-2 rounded-md hover:bg-orange-50 inline-block">
-                Learn More
-              </a>
+              <Link to="/signup" className="text-sm border border-orange-500 text-orange-500 px-4 py-2 rounded-md hover:bg-orange-50 inline-block">
+                Join waitlist
+              </Link>
             </div>
           </div>
 
@@ -38,9 +39,9 @@ const Features = () => {
               Stay on top of your campaign metrics with real-time data analytics, performance tracking, and competitive reports that highlight what's working.
             </p>
             <div className="text-center">
-              <a href="#" className="text-sm border border-orange-500 text-orange-500 px-4 py-2 rounded-md hover:bg-orange-50 inline-block">
-                Learn More
-              </a>
+              <Link to="/signup" className="text-sm border border-orange-500 text-orange-500 px-4 py-2 rounded-md hover:bg-orange-50 inline-block">
+                Join waitlist
+              </Link>
             </div>
           </div>
 
@@ -54,9 +55,9 @@ const Features = () => {
               Dive deep into analytics to understand what drives engagement and conversions, helping you optimize your campaign's real worth.
             </p>
             <div className="text-center">
-              <a href="#" className="text-sm border border-orange-500 text-orange-500 px-4 py-2 rounded-md hover:bg-orange-50 inline-block">
-                Learn More
-              </a>
+              <Link to="/signup" className="text-sm border border-orange-500 text-orange-500 px-4 py-2 rounded-md hover:bg-orange-50 inline-block">
+                Join waitlist
+              </Link>
             </div>
           </div>
         </div>

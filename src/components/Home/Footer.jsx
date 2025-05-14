@@ -79,14 +79,14 @@ const Footer = () => {
                   Contact Us
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="#"
                   className="text-gray-600 hover:text-orange-500 text-sm"
                 >
                   Learn
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div>
@@ -94,7 +94,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="https://instagram.com/singularity.core"
                   className="flex items-center text-gray-600 hover:text-orange-500 text-sm gap-3"
                 >
                   <FaInstagram />
@@ -122,7 +122,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://x.com/sigularitycore"
                   className="flex items-center text-gray-600 hover:text-orange-500 text-sm gap-3"
                 >
                   <FaXTwitter />
