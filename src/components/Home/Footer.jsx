@@ -26,7 +26,7 @@ const Footer = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span>24, Abiye street, Ajah, Lagos</span>
+              <span>57, Isheri-Ogunusi Road, Ogba, Ikeja Lagos.</span>
             </div>
 
             <div className="flex items-center mb-3 text-sm text-gray-600">
@@ -49,7 +49,7 @@ const Footer = () => {
                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
               </svg>
-              <span>geodex@gmail.com</span>
+              <span>geodex.singularity@gmail.com</span>
             </div>
           </div>
           <div className="mb-8 md:mb-0">
@@ -74,6 +74,8 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-600 hover:text-orange-500 text-sm"
                 >
                   Contact Us
@@ -94,7 +96,9 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://instagram.com/singularity.core"
+                  href="https://www.instagram.com/singularity.core?igsh=YzljYTk1ODg3Zg=="
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center text-gray-600 hover:text-orange-500 text-sm gap-3"
                 >
                   <FaInstagram />
@@ -103,7 +107,9 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/share/1BpZm7Lwzp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-3 text-gray-600 hover:text-orange-500 text-sm"
                 >
                   <FaFacebook />
@@ -112,7 +118,9 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/singularity-core/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center text-gray-600 hover:text-orange-500 text-sm gap-3"
                 >
                   <FaLinkedin />
@@ -122,7 +130,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://x.com/sigularitycore"
+                  href="https://x.com/Singularitycor?s=09"
                   className="flex items-center text-gray-600 hover:text-orange-500 text-sm gap-3"
                 >
                   <FaXTwitter />
