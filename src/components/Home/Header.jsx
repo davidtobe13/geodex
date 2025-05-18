@@ -107,7 +107,7 @@ const Header = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
           <Link to="/" className={desktopLinkStyle("/")}>Home</Link>
-          <Link to="/learn" className={desktopLinkStyle("/learn")}>Learn</Link>
+          {/* <Link to="/learn" className={desktopLinkStyle("/learn")}>Learn</Link> */}
           <Link to="/about" className={desktopLinkStyle("/about")}>About</Link>
           <Link to="/contact" className={desktopLinkStyle("/contact")}>Contact</Link>
           
@@ -140,7 +140,7 @@ const Header = () => {
       {isOpen && (
         <div className="md:hidden bg-white px-4 pt-2 pb-4">
           <Link to="/" className={mobileLinkStyle("/")}>Home</Link>
-          <Link to="/learn" className={mobileLinkStyle("/learn")}>Learn</Link>
+          {/* <Link to="/learn" className={mobileLinkStyle("/learn")}>Learn</Link> */}
           <Link to="/about" className={mobileLinkStyle("/about")}>About</Link>
           <Link to="/contact" className={mobileLinkStyle("/contact")}>Contact</Link>
           <div className="mt-4 space-y-2">
